@@ -141,7 +141,7 @@ Our query might look something like this:
 
 > `localhost:1337/api/blog-posts?populate[heroImage][fields][0]=name&populate[heroImage][fields][1]=alternativeText&populate[heroImage][fields][2]=caption&populate[heroImage][fields][3]=url&populate[authors][fields][0]=username&populate[authors][populate][role][fields][0]=name`
 
-While this _does_ work, correctly returning the data specified, it is not really feasible to use. This query is quite unruly and certainly not something you'd want to consistently use throughout your application.
+While this _does_ correctly return the data specified, it is not really feasible to use. This query is quite unruly and certainly not something you'd want to consistently use throughout your application.
 
 ## Enter... Query-String
 
